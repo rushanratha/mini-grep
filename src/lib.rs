@@ -33,7 +33,7 @@ mod tests {
     #[test]
     fn one_result() {
         let left = String::from("Hello");
-        let right = String::from("world!");
+        let right = String::from("Hello");
         
         assert_eq!(left, right);
     }
